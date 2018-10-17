@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  ReeVuu Coach
+//  ProjectTemplate
 //
-//  Created by Dev on 17/10/18.
-//  Copyright © 2018 Dev. All rights reserved.
+//  Created by Ankit Goyal on 15/03/2018.
+//  Copyright © 2018 Applify Tech Pvt Ltd. All rights reserved.
 //
 
 import UIKit
@@ -53,7 +53,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
          application to it. This property is optional since there are legitimate
          error conditions that could cause the creation of the store to fail.
         */
-        let container = NSPersistentContainer(name: "ReeVuu_Coach")
+        let container = NSPersistentContainer(name: "ProjectTemplate")
         container.loadPersistentStores(completionHandler: { (storeDescription, error) in
             if let error = error as NSError? {
                 // Replace this implementation with code to handle the error appropriately.
