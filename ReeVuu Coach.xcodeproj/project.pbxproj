@@ -15,6 +15,7 @@
 		D70BF9B721772E9E0019A58B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D70BF9B521772E9E0019A58B /* LaunchScreen.storyboard */; };
 		D70BF9C221772E9F0019A58B /* ReeVuu_CoachTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70BF9C121772E9F0019A58B /* ReeVuu_CoachTests.swift */; };
 		D70BF9CD21772E9F0019A58B /* ReeVuu_CoachUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70BF9CC21772E9F0019A58B /* ReeVuu_CoachUITests.swift */; };
+		D70BFA0D2177393E0019A58B /* gitignore in Resources */ = {isa = PBXBuildFile; fileRef = D70BFA0C2177393E0019A58B /* gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		D70BF9C821772E9F0019A58B /* ReeVuu CoachUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ReeVuu CoachUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D70BF9CC21772E9F0019A58B /* ReeVuu_CoachUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReeVuu_CoachUITests.swift; sourceTree = "<group>"; };
 		D70BF9CE21772E9F0019A58B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D70BFA0C2177393E0019A58B /* gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		D70BF9A821772E9B0019A58B /* ReeVuu Coach */ = {
 			isa = PBXGroup;
 			children = (
+				D70BFA0C2177393E0019A58B /* gitignore */,
 				D70BF9A921772E9B0019A58B /* AppDelegate.swift */,
 				D70BF9AB21772E9B0019A58B /* ViewController.swift */,
 				D70BF9AD21772E9B0019A58B /* Main.storyboard */,
@@ -233,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D70BF9B721772E9E0019A58B /* LaunchScreen.storyboard in Resources */,
+				D70BFA0D2177393E0019A58B /* gitignore in Resources */,
 				D70BF9B421772E9E0019A58B /* Assets.xcassets in Resources */,
 				D70BF9AF21772E9B0019A58B /* Main.storyboard in Resources */,
 			);
