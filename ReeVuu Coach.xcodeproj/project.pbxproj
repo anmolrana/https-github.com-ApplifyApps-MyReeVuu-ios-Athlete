@@ -24,6 +24,8 @@
 		D70BFA4021773ACD0019A58B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70BFA2F21773ACD0019A58B /* AppDelegate.swift */; };
 		D70BFA4121773ACD0019A58B /* CommonProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70BFA3221773ACD0019A58B /* CommonProtocol.swift */; };
 		D70BFA4321773B3E0019A58B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D70BFA4221773B3E0019A58B /* Assets.xcassets */; };
+		D70BFA46217740A40019A58B /* CurvedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70BFA45217740A40019A58B /* CurvedView.swift */; };
+		D70BFA48217743150019A58B /* GlobalValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70BFA47217743150019A58B /* GlobalValues.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +69,8 @@
 		D70BFA2F21773ACD0019A58B /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D70BFA3221773ACD0019A58B /* CommonProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonProtocol.swift; sourceTree = "<group>"; };
 		D70BFA4221773B3E0019A58B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D70BFA45217740A40019A58B /* CurvedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurvedView.swift; sourceTree = "<group>"; };
+		D70BFA47217743150019A58B /* GlobalValues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalValues.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +121,7 @@
 		D70BF9A821772E9B0019A58B /* ReeVuu Coach */ = {
 			isa = PBXGroup;
 			children = (
+				D70BFA44217740150019A58B /* SubClasses */,
 				D70BFA4221773B3E0019A58B /* Assets.xcassets */,
 				D70BFA2B21773ACD0019A58B /* BusinessLayer */,
 				D70BFA1721773ACD0019A58B /* Constants */,
@@ -190,6 +195,7 @@
 		D70BFA1721773ACD0019A58B /* Constants */ = {
 			isa = PBXGroup;
 			children = (
+				D70BFA47217743150019A58B /* GlobalValues.swift */,
 				D70BFA1821773ACD0019A58B /* Constants.swift */,
 				D70BFA1921773ACD0019A58B /* WebServicesConstants.swift */,
 			);
@@ -281,6 +287,14 @@
 				D70BFA3221773ACD0019A58B /* CommonProtocol.swift */,
 			);
 			path = Protocol;
+			sourceTree = "<group>";
+		};
+		D70BFA44217740150019A58B /* SubClasses */ = {
+			isa = PBXGroup;
+			children = (
+				D70BFA45217740A40019A58B /* CurvedView.swift */,
+			);
+			path = SubClasses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -418,6 +432,7 @@
 			files = (
 				D70BFA3D21773ACD0019A58B /* APIManager.swift in Sources */,
 				D70BFA4121773ACD0019A58B /* CommonProtocol.swift in Sources */,
+				D70BFA48217743150019A58B /* GlobalValues.swift in Sources */,
 				D70BFA3621773ACD0019A58B /* ExtensionFile.swift in Sources */,
 				D70BFA3321773ACD0019A58B /* ReeVuu_Coach.xcdatamodeld in Sources */,
 				D70BFA3F21773ACD0019A58B /* WalkThrough.swift in Sources */,
@@ -426,6 +441,7 @@
 				D70BFA3421773ACD0019A58B /* DBManager.swift in Sources */,
 				D70BFA4021773ACD0019A58B /* AppDelegate.swift in Sources */,
 				D70BFA3721773ACD0019A58B /* Constants.swift in Sources */,
+				D70BFA46217740A40019A58B /* CurvedView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
