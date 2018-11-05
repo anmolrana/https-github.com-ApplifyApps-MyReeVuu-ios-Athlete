@@ -13,6 +13,7 @@ class WalkThrough: UIViewController {
     //MARK: All Outlets
     
     
+    @IBOutlet weak var bottomView: UIView!
     
     
     

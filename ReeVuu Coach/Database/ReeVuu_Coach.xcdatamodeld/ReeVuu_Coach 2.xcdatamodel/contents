@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14315.18" systemVersion="18A391" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="LevelsEntity" representedClassName="LevelsEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="QuestionEntity" representedClassName="QuestionEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="answer" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="option" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="question" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="SportsEntity" representedClassName="SportsEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sportDescription" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="SportsInfoEntity" representedClassName="SportsInfoEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="experience" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="level" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="stateId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="zipCode" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="StatesEntity" representedClassName="StatesEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="UserEntity" representedClassName="UserEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="userAccessToken" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userAccountType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userEmail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userEmailVerified" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userGender" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userIsApproved" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userIsBlocked" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userPhoneNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userProfilePic" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userProfileStatus" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userUserName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userUserType" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="LevelsEntity" positionX="-18" positionY="117" width="128" height="75"/>
+        <element name="QuestionEntity" positionX="-36" positionY="108" width="128" height="120"/>
+        <element name="SportsEntity" positionX="-54" positionY="99" width="128" height="105"/>
+        <element name="SportsInfoEntity" positionX="-27" positionY="90" width="128" height="135"/>
+        <element name="StatesEntity" positionX="0" positionY="126" width="128" height="75"/>
+        <element name="UserEntity" positionX="-63" positionY="-18" width="128" height="255"/>
+    </elements>
+</model>
