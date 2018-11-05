@@ -7,3 +7,18 @@
 //
 
 import Foundation
+import UIKit
+
+
+protocol OptionSelectedDelegate {
+ func optionsSelected(optionsSelected: [String], onButton: UIButton)
+}
+
+protocol SecondSportAddDelegate {
+    func secondSportAdded(indexPath:IndexPath)
+    func sportDeleted(indexPath:IndexPath, isSportAdded:Bool)
+}
+
+protocol HomeMuteDelegate {
+    func muteUnmutePressedAt(indexpath:IndexPath)
+}
